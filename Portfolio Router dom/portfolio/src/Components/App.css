@@ -1,0 +1,72 @@
+*{	background-color:}
+
+.header {
+	position: relative;
+	height: 520px;
+	min-height: 450px;
+	width: 20%;
+	background-size: cover;
+	-webkit-background-size: cover;
+	text-align: center;
+	overflow: hidden;
+	background-color: #d4ba7a;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 0;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #a7daec;
+    overflow: hidden;
+    
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: rgb(255, 231, 192);
+    color: rgb(239, 18, 225);
+  }
+  
+  div {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+
+  .home{ display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+   }
+
+.card-img-top{ max-width: 20%;
+max-height:25%; }
